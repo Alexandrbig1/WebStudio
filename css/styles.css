@@ -642,11 +642,6 @@ screen and (min-resolution: 2dppx) and (min-width:1158px) {
   margin-bottom: 16px;
 }
 
-
-.modal-option {
-  margin-bottom: 24px;
-}
-
 .option-label {
   display: block;
   margin-bottom: 4px;
@@ -717,24 +712,23 @@ screen and (min-resolution: 2dppx) and (min-width:1158px) {
 .icon-name:hover,
 .icon-name:focus {
   fill: var(--accent-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-tel {
+/* .icon-tel {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.icon-tel:hover,
+/* .icon-tel:hover,
 .icon-tel:focus {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+} */
+/* 
 .icon-email {
   position: absolute;
   top: 50%;
@@ -748,7 +742,7 @@ screen and (min-resolution: 2dppx) and (min-width:1158px) {
 .icon-email:focus {
   fill: var(--accent-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .option-textarea::placeholder {
   font-style: normal;
@@ -876,6 +870,24 @@ screen and (min-resolution: 2dppx) and (min-width:1158px) {
 .modal-send-btn:hover,
 .modal-send-button:focus {
   background-color: #404BBF;
+}
+
+/* +++++++++++ small Phone ++++++++++++ */
+
+@media screen and (min-width: 280px) and (max-width: 400px) {
+  .modal {
+    max-width: 100%;
+  }
+}
+
+/* +++++++++++ Tablet ++++++++++++ */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 586px;
+    padding: 72px 24px 24px;
+  }
 }
 
 /* ----- about ----- */
