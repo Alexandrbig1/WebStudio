@@ -1,9 +1,5 @@
-# neoversity 6
+# Responsive Web Design
 
-## Final project
+## Project Specifications
 
-doing homework while studying in Woolf University on Master of Science in Computer Science, specializing in Software Engineering
-
-### Project Specifications
-
-HTML/CSS course (Responsive Web Design)
+HTML/CSS/JS (Responsive Web Design)
