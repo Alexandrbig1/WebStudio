@@ -5,7 +5,7 @@ Just finished Building Responsive Web-design animated with HTML/CSS and JS - fre
 
 Here is Responsive Web Designed project for Web Studio creating with HTML/CSS with added some functionallity with JavaScript (CTA button is opened a modal window...also there navigation menu is hiding in burger menu on laptop and phones versions...added some animation for cards/thumbs in portfolio section...with responsive images)
 
-## Languages and Tools:
+### Languages and Tools:
 <div align="center">  
  
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
