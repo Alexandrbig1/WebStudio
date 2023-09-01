@@ -1,4 +1,4 @@
-# Responsive Web Design
+# Responsive Web Design <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 ## Project Specifications
 
@@ -12,7 +12,7 @@ Here is Responsive Web Designed project for Web Studio creating with HTML/CSS wi
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
 </div>
 
-## Connect with me  
+## Connect with me:  
 <div align="center">
 <a href="https://github.com/alexandrbig1" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
