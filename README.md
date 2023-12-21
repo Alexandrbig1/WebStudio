@@ -1,4 +1,5 @@
 # WebStudio - Responsive Web Design Project
+
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 ## Overview
@@ -27,8 +28,10 @@ WebStudio is a responsive web design project created for a fictional company nam
 
 ## Screenshots
 
-![Studio Page](path/to/studio-screenshot.png)
-![Portfolio Page](path/to/portfolio-screenshot.png)
+![Studio Page](./images/web-home1.jpg)
+_Caption for Screenshot 1 (WebStudio Studio Page)_
+![Portfolio Page](./images/web-fav1.jpg)
+_Caption for Screenshot 2 (WebStudio Portfolio Page Dark Theme)_
 
 ## Usage
 
@@ -45,6 +48,7 @@ Leave your contact information in the CTA modal on the Studio page, and we will 
 WebStudio is a fictional web design and development studio that focuses on creating innovative and responsive web solutions for clients. Connect with us on social media to stay updated on our latest projects and news.
 
 ### Languages and Tools:
+
 <div align="center">  
  
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
@@ -54,7 +58,8 @@ WebStudio is a fictional web design and development studio that focuses on creat
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 </div>
 
-### Connect with me:  
+### Connect with me:
+
 <div align="center">
 <a href="https://linkedin.com/in/alex-smagin29" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
@@ -71,4 +76,4 @@ WebStudio is a fictional web design and development studio that focuses on creat
 <a href="https://www.behance.net/a1126" target="_blank">
 <img src=https://img.shields.io/badge/behance-%23191919.svg?&style=for-the-badge&logo=behance&logoColor=white alt=behance style="margin-bottom: 5px;" />
 </a>  
-</div> 
+</div>
