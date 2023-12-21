@@ -2,6 +2,11 @@
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 ## Overview
 
 WebStudio is a responsive web design project created for a fictional company named "WebStudio." This freelance project focuses on delivering a modern and visually appealing web presence using HTML, CSS, and JavaScript. The website consists of a home page called "Studio" and a portfolio page, each with unique features and functionality.
@@ -26,6 +31,12 @@ WebStudio is a responsive web design project created for a fictional company nam
 
 - **Project Cards:** Displaying completed works, each with an animation popup when hovered over.
 
+## Technologies
+
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
 ## Screenshots
 
 ![Studio Page](./images/web-home1.jpg)
@@ -46,6 +57,20 @@ Leave your contact information in the CTA modal on the Studio page, and we will 
 ## About WebStudio
 
 WebStudio is a fictional web design and development studio that focuses on creating innovative and responsive web solutions for clients. Connect with us on social media to stay updated on our latest projects and news.
+
+## Issues
+
+If you encounter any issues or have suggestions, please
+[open an issue](https://github.com/Alexandrbig1/WebStudio/issues).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Feedback
+
+I welcome feedback and suggestions from users to improve the application's
+functionality and user experience.
 
 ### Languages and Tools:
 
