@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Utilities and dependencies
+/.cache/
+/.eslintcache
+/.npm/
+/*.log
+/yarn-error.log

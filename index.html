@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>studio</title>
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta
+      name="description"
+      content="WebStudio - Responsive Web Design Project with HTML, CSS, and JavaScript. Explore interactive features, portfolio animations, and innovative web solutions."
+    />
+    <meta
+      name="keywords"
+      content="WebStudio, Responsive Web Design, HTML, CSS, JavaScript, Animation, Freelance, Web Development"
+    />
+    <meta name="author" content="Alex Smagin" />
+    <title>WebStudio | Studio Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -23,7 +33,7 @@
   <body>
     <!-- ----- HEADER ----- -->
     <header class="head">
-      <div class="container header-container">
+      <div class="container">
         <!-- header nav -->
         <nav class="head-nav">
           <a href="./index.html" class="head-logo"
@@ -54,13 +64,21 @@
                 >+11 (000) 111-11-11</a
               >
             </li>
+            <li class="head-address-items">
+              <span>
+                <label class="switch" aria-label="theme switch">
+                  <input class="theme-switch" type="checkbox" />
+                  <svg class="switch-icon-moon">
+                    <use href="/images/icons-sprite.svg#icon-moon"></use>
+                  </svg>
+                  <svg class="switch-icon-sun">
+                    <use href="/images/icons-sprite.svg#icon-sun"></use>
+                  </svg>
+                </label>
+              </span>
+            </li>
           </ul>
         </address>
-        <button data-menu-open class="mobile-head-btn" type="button">
-          <svg class="mobile-head-icon" width="32" height="22">
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
       </div>
     </header>
 
@@ -69,12 +87,10 @@
       <!-- hero -->
       <section class="hero">
         <div class="container">
-          <div class="hero-container">
-            <h1 class="hero-main">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-btn" data-modal-open>
-              Order Service
-            </button>
-          </div>
+          <h1 class="hero-main">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -141,7 +157,6 @@
           <ul class="digital-menu">
             <li class="digital-items">
               <img
-                srcset="./images/img1@2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="laptop"
                 width="360"
@@ -150,7 +165,6 @@
             </li>
             <li class="digital-items">
               <img
-                srcset="./images/img2@2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="phones"
                 width="360"
@@ -159,7 +173,6 @@
             </li>
             <li class="digital-items">
               <img
-                srcset="./images/img3@2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="phoneonhand"
                 width="360"
@@ -177,7 +190,6 @@
           <ul class="team-menu">
             <li class="team-list">
               <img
-                srcset="./images/mark@2x.jpg 2x"
                 src="./images/mark.jpg"
                 alt="Mark"
                 width="264"
@@ -219,13 +231,7 @@
               </div>
             </li>
             <li class="team-list">
-              <img
-                srcset="./images/tom@2x.jpg 2x"
-                src="./images/tom.jpg"
-                alt="Tom"
-                width="264"
-                height="260"
-              />
+              <img src="./images/tom.jpg" alt="Tom" width="264" height="260" />
               <div class="team-container">
                 <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -263,7 +269,6 @@
             </li>
             <li class="team-list">
               <img
-                srcset="./images/camila@2x.jpg 2x"
                 src="./images/camila.jpg"
                 alt="Camila"
                 width="264"
@@ -306,7 +311,6 @@
             </li>
             <li class="team-list">
               <img
-                srcset="./images/dan@2x.jpg 2x"
                 src="./images/dan.jpg"
                 alt="Daniel"
                 width="264"
@@ -464,83 +468,15 @@
                 placeholder="E-mail"
             /></label>
             <button type="submit" class="footer-submit-btn">
-              Subscribe<span>
-                <svg class="subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-subscribe"></use>
-                </svg>
-              </span>
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
             </button>
           </form>
         </div>
       </div>
     </footer>
-
-    <!----- MOBILE MENU ----->
-
-    <div class="mobile-menu" data-menu>
-      <div class="container mobile-menu-container">
-        <button data-menu-close type="button" class="mobile-close-btn">
-          <svg class="mobile-close-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <nav class="mobile-nav">
-          <ul class="mobile-nav-menu">
-            <li class="mobile-nav-items">
-              <a href="./index.html" class="mobile-nav-link active">Studio</a>
-            </li>
-            <li class="mobile-nav-items">
-              <a href="./portfolio.html" class="mobile-nav-link">Portfolio</a>
-            </li>
-            <li class="mobile-nav-items">
-              <a href="" class="mobile-nav-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="mobile-address-menu">
-          <li class="mobile-address-items">
-            <a href="mailto:info@devstudio.com" class="mobile-contacts"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="mobile-address-items">
-            <a href="tel:+110001111111" class="mobile-contacts"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-        <ul class="mobile-social-menu">
-          <li class="mobile-social-items">
-            <a href="" class="mobile-social-link">
-              <svg class="mobile-social-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-social-items">
-            <a href="" class="mobile-social-link">
-              <svg class="mobile-social-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-social-items">
-            <a href="" class="mobile-social-link">
-              <svg class="mobile-social-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mobile-social-items">
-            <a href="" class="mobile-social-link">
-              <svg class="mobile-social-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
 
     <!----- MODAL ----->
 
@@ -636,8 +572,18 @@
       </div>
     </div>
 
+    <!----- SCROLL UP ----->
+
+    <button class="scrollup visually-hidden" type="button">
+      <svg class="scrollup__icon" aria-label="Scroll up icon">
+        <use href="./images/icons-sprite.svg#icon-arrow-up"></use>
+      </svg>
+    </button>
+
     <!--- script --->
     <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/scroll-up.js"></script>
+    <script src="./js/sticky-header.js"></script>
+    <script src="./js/theme-switcher.js"></script>
   </body>
 </html>
