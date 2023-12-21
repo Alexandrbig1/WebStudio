@@ -40,6 +40,10 @@ WebStudio is a responsive web design project created for a fictional company nam
 
 Leave your contact information in the CTA modal on the Studio page, and we will get back to you as soon as possible.
 
+## About WebStudio
+
+WebStudio is a fictional web design and development studio that focuses on creating innovative and responsive web solutions for clients. Connect with us on social media to stay updated on our latest projects and news.
+
 ### Languages and Tools:
 <div align="center">  
  
